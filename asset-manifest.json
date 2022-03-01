@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/rocket-coffee/static/js/main.42ffbaf0.js",
+    "static/js/787.4396c616.chunk.js": "/rocket-coffee/static/js/787.4396c616.chunk.js",
+    "static/media/coffee.svg": "/rocket-coffee/static/media/coffee.da9522a7ee6881006ff70813554a6d60.svg",
+    "static/media/logo-mobile.svg": "/rocket-coffee/static/media/logo-mobile.3e3d1a088f69d14aaacf9f320f25e704.svg",
+    "index.html": "/rocket-coffee/index.html",
+    "static/media/arrow.svg": "/rocket-coffee/static/media/arrow.7c92a1d80459d7c6d561c9c7bac55968.svg",
+    "static/media/menu-icon.svg": "/rocket-coffee/static/media/menu-icon.27ed7335a9d5d49e0a3514fc3f3e19e2.svg",
+    "main.42ffbaf0.js.map": "/rocket-coffee/static/js/main.42ffbaf0.js.map",
+    "787.4396c616.chunk.js.map": "/rocket-coffee/static/js/787.4396c616.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.42ffbaf0.js"
+  ]
+}
