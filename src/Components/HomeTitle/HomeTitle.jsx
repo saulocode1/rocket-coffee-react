@@ -4,9 +4,9 @@ import { PurpleTitle, WhiteTitle } from "../HomeTitle/HomeTitle.styled";
 const HomeTitle = () => {
     return (
         <>
-            <WhiteTitle>GreatCoffee</WhiteTitle>
+            <WhiteTitle>Great Coffee</WhiteTitle>
             <PurpleTitle>
-                {"<"}GreatCode{"/>"}
+                {"<"}Great Code{"/>"}
             </PurpleTitle>
         </>
     );
