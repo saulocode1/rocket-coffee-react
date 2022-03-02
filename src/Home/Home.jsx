@@ -1,7 +1,7 @@
 import React from "react";
 import HomeButton from "../Components/HomeButton/HomeButton";
 import HomeTitle from "../Components/HomeTitle/HomeTitle";
-import CircleBackground from "../Components/CircleBackground";
+import CircleBackground, { CircleBackgroundDesktop } from "../Components/CircleBackground";
 import HomeSection, { HomeImage, MainTitle, TitleDiv } from "./Home.styled";
 
 const Home = () => {
@@ -21,13 +21,13 @@ const Home = () => {
                     index="-1"
                     display="none"
                 />
-                <CircleBackground
+                <CircleBackgroundDesktop
                     bottom="-67.875rem"
                     right="45.625rem"
                     index="-1"
                     display="flex"
                 />
-                <CircleBackground
+                <CircleBackgroundDesktop
                     bottom="-11rem"
                     right="-66.375rem"
                     index="-1"

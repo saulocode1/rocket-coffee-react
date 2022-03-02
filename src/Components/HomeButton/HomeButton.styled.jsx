@@ -14,29 +14,31 @@ const Button = styled.button`
     font-weight: 800;
     font-size: 0.6875rem;
     cursor: pointer;
-    margin-bottom: 6.125rem;
-    
-    
+
     @media (min-width: 1200px) {
         display: none;
+        margin-bottom: 0rem;
     }
 `;
 
 export const ButtonDesktop = styled.button`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.6875rem 2.375rem;
-    border-radius: 0.375rem;
-    border: 1px solid var(--first-color);
-    background-color: transparent;
-    color: var(--light-color);
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 0.6875rem;
-    cursor: pointer;
-    margin-left: 8.1875rem;
+    display: none;
 
+    @media (min-width: 1200px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.6875rem 2.375rem;
+        border-radius: 0.375rem;
+        border: 1px solid var(--first-color);
+        background-color: transparent;
+        color: var(--light-color);
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 0.6875rem;
+        cursor: pointer;
+        margin-left: 8.1875rem;
+    }
 `;
 
 export default Button;
