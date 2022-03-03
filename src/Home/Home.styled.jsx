@@ -2,10 +2,10 @@ import styled from "styled-components";
 import Coffee from "../assets/image/img-coffee.svg";
 
 const HomeSection = styled.section`
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 `;
 
 export const MainTitle = styled.h1`

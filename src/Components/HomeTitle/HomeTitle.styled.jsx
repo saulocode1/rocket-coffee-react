@@ -17,6 +17,7 @@ export const PurpleTitle = styled.h1`
     font-weight: 700;
     text-shadow: -1px -1px 0 var(--first-color), 1px -1px 0 var(--first-color),
         -1px 1px 0 var(--first-color), 1px 1px 0 var(--first-color);
+
     @media (min-width: 1200px) {
         font-size: 6rem;
     }

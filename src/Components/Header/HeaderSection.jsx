@@ -1,20 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header.styled";
-// import Logo from "../Logo";
-import Menu from "../MenuIcon";
-import {LogoDesktop, Logo} from "../Logo";
+import MenuIcon from "../MenuIcon";
+import { LogoDesktop, Logo } from "../Logo";
 import NavBarComponent from "../NavBar/NavBar";
 import { ButtonDesktop } from "../HomeButton/HomeButton.styled";
+import Menu from "../Menu/Menu";
 
 const HeaderSection = () => {
+    const [opacity, setOpacity] = useState(true);
     return (
         <>
             <Header>
                 <Logo />
-                <LogoDesktop/>
-                <NavBarComponent/>
-                <Menu />
+                <LogoDesktop />
+                <NavBarComponent />
                 <ButtonDesktop>Pegar meu café</ButtonDesktop>
+                <MenuIcon onClick={() => setOpacity(!opacity)} />
+                <Menu opacity={opacity ? "1" : "0"} />
             </Header>
         </>
     );
