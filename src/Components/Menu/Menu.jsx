@@ -1,13 +1,19 @@
-import styled from "styled-components";
+import React from "react";
+import MenuDiv from "./Menu.styled";
+import MenuLink from "./MenuLink/MenuLink.styled";
 
-const Menu = styled.div`
-    position: absolute;
-    top: 10vh;
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    opacity: ${(props) => props.opacity};
-    transition: opacity 300ms ease-in;
-`;
+const Menu = (props) => {
+    return (
+        <>
+            <MenuDiv opacity={props.opacity}>
+                <MenuLink>Home</MenuLink>
+                <MenuLink>Menu</MenuLink>
+                <MenuLink>Recompensas</MenuLink>
+                <MenuLink>Gift Cards</MenuLink>
+                <MenuLink>Lojas</MenuLink>
+            </MenuDiv>
+        </>
+    );
+};
 
 export default Menu;

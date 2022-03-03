@@ -7,6 +7,7 @@ const Header = styled.header`
     align-items: center;
     justify-content: space-between;
     padding: 0 1.5625rem;
+    padding-right: 0;
 
     @media (min-width: 1200px) {
         max-width: 70vw;
