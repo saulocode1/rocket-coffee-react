@@ -6,10 +6,11 @@ const MenuDiv = styled.div`
     left: 0;
     width: 100%;
     height: 90vh;
-    z-index: 1;
-    background-color: var(--dark-color);
     opacity: ${(props) => props.opacity};
-    transition: opacity 200ms ease-in;
+    z-index: ${(props) => props.index};
+    background-color: var(--dark-color);
+    pointer-events: ${(props) => props.opacity === 0 ? 'none' : 'auto'};
+    transition: opacity 200ms linear, z-index 200ms linear;
 
     @media (min-width: 1200px) {
         display: none;

@@ -5,7 +5,7 @@ import MenuLink from "./MenuLink/MenuLink.styled";
 const Menu = (props) => {
     return (
         <>
-            <MenuDiv opacity={props.opacity}>
+            <MenuDiv opacity={props.opacity} index={props.index}>
                 <MenuLink>Home</MenuLink>
                 <MenuLink>Menu</MenuLink>
                 <MenuLink>Recompensas</MenuLink>

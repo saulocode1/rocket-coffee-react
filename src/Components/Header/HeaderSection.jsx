@@ -8,7 +8,12 @@ import Menu from "../Menu/Menu";
 
 const HeaderSection = () => {
     const [opacity, setOpacity] = useState(true);
-    const [menu, setMenu] = useState(true);
+    const [index, setIndex] = useState(true);
+
+    function handleClick(event) {
+        setOpacity(!opacity);
+        setIndex(!index);
+    }
     return (
         <>
             <Header>
@@ -16,13 +21,11 @@ const HeaderSection = () => {
                 <LogoDesktop />
                 <NavBarComponent />
                 <ButtonDesktop>Pegar meu café</ButtonDesktop>
-                <MenuIcon
-                    onClick={() => {
-                        setOpacity(!opacity);
-                        setMenu(!menu);
-                    }}
+                <MenuIcon onClick={handleClick} />
+                <Menu
+                    opacity={opacity ? "0" : "1"}
+                    index={index ? "-1" : "3"}
                 />
-                <Menu opacity={opacity ? "1" : "0"} />
             </Header>
         </>
     );

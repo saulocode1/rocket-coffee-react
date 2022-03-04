@@ -4,6 +4,10 @@ import LogoDesktopIcon from "../assets/icons/logo-desktop.svg";
 
 export const Logo = styled.img.attrs({ src: LogoIcon })`
     display: flex;
+
+    @media (min-width: 1200px) {
+        display: none;
+    }
 `;
 
 export const LogoButton = styled.button`
@@ -11,7 +15,7 @@ export const LogoButton = styled.button`
 `;
 
 export const LogoDesktop = styled.img.attrs({ src: LogoDesktopIcon })`
-    display: none; 
+    display: none;
 
     @media (min-width: 1200px) {
         display: flex;

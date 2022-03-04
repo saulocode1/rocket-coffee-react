@@ -7,7 +7,7 @@ function App() {
         <>
             <GlobalStyle />
             <HeaderSection />
-
+            
             <Home>
             </Home>
         </>
