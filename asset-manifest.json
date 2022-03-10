@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/rocket-coffee-react/static/js/main.3c2c5970.js",
+    "main.js": "/rocket-coffee-react/static/js/main.62043a39.js",
     "static/js/787.4396c616.chunk.js": "/rocket-coffee-react/static/js/787.4396c616.chunk.js",
     "static/media/img-coffee.svg": "/rocket-coffee-react/static/media/img-coffee.3ef80db1ad2d71d108bed2880027713f.svg",
     "static/media/logo-mobile.svg": "/rocket-coffee-react/static/media/logo-mobile.3e3d1a088f69d14aaacf9f320f25e704.svg",
@@ -9,10 +9,10 @@
     "static/media/coffee.svg": "/rocket-coffee-react/static/media/coffee.09f07032fa873259039dd4288b305ff5.svg",
     "static/media/arrow.svg": "/rocket-coffee-react/static/media/arrow.7c92a1d80459d7c6d561c9c7bac55968.svg",
     "static/media/menu-icon.svg": "/rocket-coffee-react/static/media/menu-icon.27ed7335a9d5d49e0a3514fc3f3e19e2.svg",
-    "main.3c2c5970.js.map": "/rocket-coffee-react/static/js/main.3c2c5970.js.map",
+    "main.62043a39.js.map": "/rocket-coffee-react/static/js/main.62043a39.js.map",
     "787.4396c616.chunk.js.map": "/rocket-coffee-react/static/js/787.4396c616.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.3c2c5970.js"
+    "static/js/main.62043a39.js"
   ]
 }
