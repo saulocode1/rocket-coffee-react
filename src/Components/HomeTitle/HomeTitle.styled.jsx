@@ -4,7 +4,7 @@ export const WhiteTitle = styled.h1`
     font-size: 3.125rem;
     color: var(--light-color);
     font-weight: 700;
-    margin-top: 6.25rem;
+    margin-top: 6.125rem;
 
     @media (min-width: 1200px) {
         font-size: 6rem;

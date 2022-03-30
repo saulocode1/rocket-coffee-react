@@ -1,8 +1,16 @@
 import React from "react";
 import HomeButton from "../Components/HomeButton/HomeButton";
 import HomeTitle from "../Components/HomeTitle/HomeTitle";
-import CircleBackground, { CircleBackgroundDesktop } from "../Components/CircleBackground";
-import HomeSection, { HomeImage, MainTitle, TitleDiv } from "./Home.styled";
+import CircleBackground, {
+    CircleBackgroundDesktop,
+} from "../Components/CircleBackground";
+import HomeSection, {
+    HomeBlur,
+    HomeImage,
+    ImageWrapper,
+    MainTitle,
+    TitleDiv,
+} from "./Home.styled";
 
 const Home = () => {
     return (
@@ -15,21 +23,24 @@ const Home = () => {
                 </TitleDiv>
                 <HomeButton />
                 <HomeTitle />
-                <HomeImage />
-                <CircleBackground
-                    bottom="-65.625rem"
+                <ImageWrapper>
+                    <HomeImage />
+                    <HomeBlur />
+                </ImageWrapper>
+                {/* <CircleBackground
+                    bottom="-2.7rem"
                     index="-1"
                     display="none"
-                />
+                /> */}
                 <CircleBackgroundDesktop
-                    bottom="-67.875rem"
-                    right="45.625rem"
+                    bottom="-3rem"
+                    right="40px"
                     index="-1"
                     display="flex"
                 />
                 <CircleBackgroundDesktop
-                    bottom="-11rem"
-                    right="-66.375rem"
+                    bottom="-4px"
+                    right="-45px"
                     index="-1"
                     display="flex"
                 />

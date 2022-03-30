@@ -10,7 +10,7 @@ const HeaderSection = () => {
     const [opacity, setOpacity] = useState(true);
     const [index, setIndex] = useState(true);
 
-    function handleClick(event) {
+    function handleClick() {
         setOpacity(!opacity);
         setIndex(!index);
     }

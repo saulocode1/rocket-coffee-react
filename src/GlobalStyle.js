@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
     body {
         background-color: var(--dark-color);
         font-family: 'Manrope', sans-serif;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
     :root {

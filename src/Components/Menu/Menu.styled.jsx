@@ -4,8 +4,8 @@ const MenuDiv = styled.div`
     position: absolute;
     top: 10vh;
     left: 0;
-    width: 100%;
-    height: 90vh;
+    width: 110vw;
+    height: 100vh;
     opacity: ${(props) => props.opacity};
     z-index: ${(props) => props.index};
     background-color: var(--dark-color);
